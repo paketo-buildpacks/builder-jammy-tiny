@@ -1,4 +1,4 @@
-module github.com/paketo-buildpacks/tiny-builder
+module github.com/paketo-buildpacks/builder-jammy-tiny
 
 go 1.15
 
