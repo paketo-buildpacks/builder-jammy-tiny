@@ -9,8 +9,8 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
   version = "8.22.0"
 
 [[buildpacks]]
-  uri = "docker://gcr.io/paketo-buildpacks/java:10.3.0"
-  version = "10.3.0"
+  uri = "docker://gcr.io/paketo-buildpacks/java:10.3.1"
+  version = "10.3.1"
 
 [[buildpacks]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:5.6.7"
@@ -29,7 +29,7 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
 
   [[order.group]]
     id = "paketo-buildpacks/java"
-    version = "10.3.0"
+    version = "10.3.1"
 
 [[order]]
 
@@ -44,7 +44,7 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
     version = "5.6.7"
 
 [stack]
-  build-image = "docker.io/paketobuildpacks/build-jammy-tiny:0.2.7"
+  build-image = "docker.io/paketobuildpacks/build-jammy-tiny:0.2.8"
   id = "io.buildpacks.stacks.jammy.tiny"
   run-image = "index.docker.io/paketobuildpacks/run-jammy-tiny:latest"
   run-image-mirrors = []
