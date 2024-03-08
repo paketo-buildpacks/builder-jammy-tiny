@@ -17,7 +17,7 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
   version = "5.6.9"
 
 [lifecycle]
-  version = "0.18.5"
+  version = "0.19.0"
 
 [[order]]
 
