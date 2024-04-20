@@ -5,8 +5,8 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
   version = "4.8.0"
 
 [[buildpacks]]
-  uri = "docker://gcr.io/paketo-buildpacks/java-native-image:9.1.0"
-  version = "9.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/java-native-image:9.2.0"
+  version = "9.2.0"
 
 [[buildpacks]]
   uri = "docker://gcr.io/paketo-buildpacks/java:12.1.0"
@@ -23,7 +23,7 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
 
   [[order.group]]
     id = "paketo-buildpacks/java-native-image"
-    version = "9.1.0"
+    version = "9.2.0"
 
 [[order]]
 
