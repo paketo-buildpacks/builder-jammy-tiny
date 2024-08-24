@@ -13,8 +13,8 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
   version = "15.2.0"
 
 [[buildpacks]]
-  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.9.1"
-  version = "5.9.1"
+  uri = "docker://gcr.io/paketo-buildpacks/procfile:5.9.2"
+  version = "5.9.2"
 
 [lifecycle]
   version = "0.20.1"
@@ -41,7 +41,7 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
-    version = "5.9.1"
+    version = "5.9.2"
 
 [stack]
   build-image = "docker.io/paketobuildpacks/build-jammy-tiny:0.2.46"
