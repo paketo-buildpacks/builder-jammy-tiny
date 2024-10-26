@@ -5,12 +5,12 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
   version = "4.12.1"
 
 [[buildpacks]]
-  uri = "docker://gcr.io/paketo-buildpacks/java-native-image:10.1.0"
-  version = "10.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/java-native-image:10.2.0"
+  version = "10.2.0"
 
 [[buildpacks]]
-  uri = "docker://gcr.io/paketo-buildpacks/java:16.1.0"
-  version = "16.1.0"
+  uri = "docker://gcr.io/paketo-buildpacks/java:16.2.0"
+  version = "16.2.0"
 
 [[buildpacks]]
   uri = "docker://gcr.io/paketo-buildpacks/procfile:5.10.0"
@@ -23,13 +23,13 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
 
   [[order.group]]
     id = "paketo-buildpacks/java-native-image"
-    version = "10.1.0"
+    version = "10.2.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/java"
-    version = "16.1.0"
+    version = "16.2.0"
 
 [[order]]
 
