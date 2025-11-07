@@ -1,8 +1,8 @@
 description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-like run image) with buildpacks for Java, Java Native Image and Go"
 
 [[buildpacks]]
-  uri = "docker://docker.io/paketobuildpacks/go:4.18.4"
-  version = "4.18.4"
+  uri = "docker://docker.io/paketobuildpacks/go:4.18.5"
+  version = "4.18.5"
 
 [[buildpacks]]
   uri = "docker://docker.io/paketobuildpacks/java-native-image:13.1.0"
@@ -13,8 +13,8 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
   version = "20.1.0"
 
 [[buildpacks]]
-  uri = "docker://docker.io/paketobuildpacks/procfile:5.11.3"
-  version = "5.11.3"
+  uri = "docker://docker.io/paketobuildpacks/procfile:5.11.4"
+  version = "5.11.4"
 
 [lifecycle]
   version = "0.20.17"
@@ -35,13 +35,13 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
 
   [[order.group]]
     id = "paketo-buildpacks/go"
-    version = "4.18.4"
+    version = "4.18.5"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
-    version = "5.11.3"
+    version = "5.11.4"
 
 [stack]
   build-image = "docker.io/paketobuildpacks/build-jammy-tiny:0.2.82"
