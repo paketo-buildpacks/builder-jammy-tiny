@@ -5,16 +5,16 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
   version = "4.18.10"
 
 [[buildpacks]]
-  uri = "docker://docker.io/paketobuildpacks/java-native-image:13.3.0"
-  version = "13.3.0"
+  uri = "docker://docker.io/paketobuildpacks/java-native-image:13.4.0"
+  version = "13.4.0"
 
 [[buildpacks]]
-  uri = "docker://docker.io/paketobuildpacks/java:20.3.0"
-  version = "20.3.0"
+  uri = "docker://docker.io/paketobuildpacks/java:20.4.0"
+  version = "20.4.0"
 
 [[buildpacks]]
-  uri = "docker://docker.io/paketobuildpacks/procfile:5.11.4"
-  version = "5.11.4"
+  uri = "docker://docker.io/paketobuildpacks/procfile:5.12.0"
+  version = "5.12.0"
 
 [lifecycle]
   version = "0.20.19"
@@ -23,13 +23,13 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
 
   [[order.group]]
     id = "paketo-buildpacks/java-native-image"
-    version = "13.3.0"
+    version = "13.4.0"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/java"
-    version = "20.3.0"
+    version = "20.4.0"
 
 [[order]]
 
@@ -41,7 +41,7 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
 
   [[order.group]]
     id = "paketo-buildpacks/procfile"
-    version = "5.11.4"
+    version = "5.12.0"
 
 [stack]
   build-image = "docker.io/paketobuildpacks/build-jammy-tiny:0.2.90"
