@@ -44,6 +44,6 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
     version = "5.13.0"
 
 [stack]
-  build-image = "docker.io/paketobuildpacks/build-jammy-tiny:0.2.99"
+  build-image = "docker.io/paketobuildpacks/build-jammy-tiny:0.2.100"
   id = "io.buildpacks.stacks.jammy.tiny"
   run-image = "index.docker.io/paketobuildpacks/run-jammy-tiny:latest"
