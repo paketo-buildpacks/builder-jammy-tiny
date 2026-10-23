@@ -5,31 +5,31 @@ description = "Tiny base image (Ubuntu Jammy Jellyfish build image, distroless-l
   version = "4.23.0"
 
 [[buildpacks]]
-  uri = "docker://docker.io/paketobuildpacks/java-native-image:14.14.0"
-  version = "14.14.0"
+  uri = "docker://docker.io/paketobuildpacks/java-native-image:14.14.1"
+  version = "14.14.1"
 
 [[buildpacks]]
-  uri = "docker://docker.io/paketobuildpacks/java:22.7.0"
-  version = "22.7.0"
+  uri = "docker://docker.io/paketobuildpacks/java:22.7.1"
+  version = "22.7.1"
 
 [[buildpacks]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.15.5"
   version = "5.15.5"
 
 [lifecycle]
-  version = "0.21.25"
+  version = "0.21.26"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/java-native-image"
-    version = "14.14.0"
+    version = "14.14.1"
 
 [[order]]
 
   [[order.group]]
     id = "paketo-buildpacks/java"
-    version = "22.7.0"
+    version = "22.7.1"
 
 [[order]]
 
