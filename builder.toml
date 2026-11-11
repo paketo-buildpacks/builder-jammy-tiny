@@ -13,8 +13,8 @@ uri = 'docker://docker.io/paketobuildpacks/java:22.8.0'
 version = '22.8.0'
 
 [[buildpacks]]
-uri = 'docker://docker.io/paketobuildpacks/procfile:5.15.7'
-version = '5.15.7'
+uri = 'docker://docker.io/paketobuildpacks/procfile:5.15.8'
+version = '5.15.8'
 
 [lifecycle]
 version = '0.21.28'
@@ -37,7 +37,7 @@ version = '4.23.3'
 [[order]]
 [[order.group]]
 id = 'paketo-buildpacks/procfile'
-version = '5.15.7'
+version = '5.15.8'
 
 [stack]
 id = 'io.buildpacks.stacks.jammy.tiny'
