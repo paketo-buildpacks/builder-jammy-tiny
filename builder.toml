@@ -41,5 +41,5 @@ version = '5.15.9'
 
 [stack]
 id = 'io.buildpacks.stacks.jammy.tiny'
-build-image = 'docker.io/paketobuildpacks/build-jammy-tiny:0.2.202'
+build-image = 'docker.io/paketobuildpacks/build-jammy-tiny:0.2.203'
 run-image = 'index.docker.io/paketobuildpacks/run-jammy-tiny:latest'
