@@ -17,7 +17,7 @@ uri = 'docker://docker.io/paketobuildpacks/procfile:5.15.9'
 version = '5.15.9'
 
 [lifecycle]
-version = '0.21.29'
+version = '0.21.30'
 
 [[order]]
 [[order.group]]
